@@ -67,17 +67,6 @@ public class TicTacToeUsingAI {
 			}
 			
 			System.out.print("\nPlayer 2 - X\n\n");
-//			System.out.print("\nEnter row and column (1,2,3): ");
-//			r1 = input.nextInt();
-//			c1 = input.nextInt();
-//			while(r1 <= 0 || r1 > 3 || c1 <= 0 || c1 > 3 || arr.contains(""+r1+c1)) {
-//				System.out.println("Enter valid row and column number (1,2,3): ");
-//				r1 = input.nextInt();
-//				c1 = input.nextInt();
-//			}
-//			n = ""+r1+c1;
-//			arr.add(n);
-//			board[r1-1][c1-1] = 'X';
 			AI();
 			if(winner('X')) {
 				printBoard(board);
